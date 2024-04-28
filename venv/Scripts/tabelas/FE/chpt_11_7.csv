@@ -1,8 +1,8 @@
-Source;PM;SO2;NOX
-BMP;0.06;NaN;NaN
-Secador;1.15;NaN;NaN
-Resfriador;0.055;NaN;NaN
-Granulacao;0.095;NaN;NaN
-Queima;0.245;104.5;0.27
-Refrigeracao;0.0335;NaN;NaN
-Esmatacao;0.095;NaN;NaN
+Source,PM,SO2,NOX
+BMP,0.006,0,0
+Secador,1.15,0,0
+Resfriador,0.055,0,0
+Granulacao,0.095,0,0
+Queima,0.245,104.5,0.27
+Refrigeracao,0.0335,0,0
+Esmatacao,0.095,0,0
