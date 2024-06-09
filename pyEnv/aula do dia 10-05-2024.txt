@@ -1,0 +1,18 @@
+aula do dia 10-05-2024
+
+
+caracterizar a meterologia do local - 
+
+
+
+
+Gradiente de  temperatura, para dizer se ocorrem muitas inversões
+
+Referencia -1 graus celcius p ser neutra
+
+
+para valores negativos possui instabilidade. 
+
+Vermelho se for instavel 
+Azul estável 
+Preta Neutra.
