@@ -1,0 +1,252 @@
+        AERMET, A Meteorological Processor for the AERMOD Dispersion Model
+                                   Version  21112
+
+                     Data Processed on 22-JUN-2024 at 17:05:39
+
+                                      Stage 1                          Page   1
+
+              ********************************************************
+              ***        AERMET Setup Finished Successfully        ***
+              ********************************************************
+
+ 1.  Job File Names
+
+     Listing of Messages: STG1.MG1
+     Summary (this file): STG1.RP1
+
+
+ 2.  Upper Air Data  
+
+      Site ID    Latitude(deg.)   Longitude(deg.)   Time Adjustment
+        99999       27.67S            48.55W               3
+
+      Data Format: FSL     
+
+     AERMET Has Determined That Processing For This Pathway Includes:
+          EXTRACT AND QUALITY ASSESSMENT             
+
+          Extract Input -    OPEN: UPPERAIR.UA
+          Extract Output-    OPEN: STG1.UPEXT
+          QA Output     -    OPEN: STG1.UQA
+
+          The Extract Dates Are:    Starting:  1-JAN-2023
+                                      Ending: 31-DEC-2023
+
+          Upper Air Data Above the First Level Above 5000 Meters Not Extracted
+          Upper Air Automatic Data Checks Are: OFF
+
+
+ 3.  NWS Surface Data
+
+      Site ID    Latitude(deg.)   Longitude(deg.)   Time Adjustment   Elev. (m)
+        66666        26.3S            48.85W               0             10.0
+
+      Data Format: SAMSON  
+
+     AERMET Has Determined That Processing For This Pathway Includes:
+          EXTRACT AND QUALITY ASSESSMENT             
+
+          Extract Input -    OPEN: LOCAL.SAM
+          Extract Output-    OPEN: STG1.SEXT
+          QA Output     -    OPEN: STG1.SQA
+
+          The Extract Dates Are:    Starting:  1-JAN-2023
+                                      Ending: 31-DEC-2023
+
+
+ 4.  On-site Data    
+
+     AERMET Has Determined That Processing For This Pathway Includes:
+          NONE, NO DATA TO BE PROCESSED ON THIS PATH 
+
+        AERMET, A Meteorological Processor for the AERMOD Dispersion Model
+                                   Version  21112
+
+                     Data Processed on 22-JUN-2024 at 17:05:39
+
+                                      Stage 1                          Page   2
+
+              ********************************************************
+              ***  AERMET Data Processing Finished UN-successfully ***
+              ********************************************************
+
+
+                        **** SUMMARY OF THE QA AUDIT ****
+
+
+ SURFACE DATA         |------VIOLATION SUMMARY------|   |-----TEST VALUES-----|
+               TOTAL     #     LOWER  UPPER      %      MISSING   LOWER   UPPER
+               # OBS  MISSING  BOUND  BOUND  ACCEPTED     FLAG    BOUND   BOUND
+       PRCP       0        0      0      0      0.00       -9.0,    0.0,25400.0
+       SLVP       0        0      0      0      0.00    99999.0, 9000.0,10999.0
+       CLHT       0        0      0      0      0.00      999.0,    0.0,  300.0
+       PW         0        0      0      0      0.00        9.0,    0.0,    9.0
+         TH       0        0      0      0      0.00      999.0,    0.0,  800.0
+       HZVS       0        0      0      0      0.00    99999.0,    0.0, 1640.0
+       TMPD       0        0      0      0      0.00      999.0, -300.0,  400.0
+       DPTP       0        0      0      0      0.00      999.0, -650.0,  350.0
+       RHUM       0        0      0      0      0.00      999.0,    0.0,  100.0
+       WDIR       0        0      0      0      0.00      999.0,    0.0,   36.0
+       WSPD       0        0      0      0      0.00      999.0,    0.0,  500.0
+
+ NOTE: Test values were also multiplied by the same factors applied to the data
+       (see Appendix B of the AERMET User's Guide)
+
+
+  END-OF-FILE ON DEV70 BEFORE COMPLETING SUPPLEMENTAL INFORMATION
+
+     THIS CONCLUDES THE AUDIT TRAIL
+        AERMET, A Meteorological Processor for the AERMOD Dispersion Model
+                                   Version  21112
+
+                     Data Processed on 22-JUN-2024 at 17:05:39
+
+                                      Stage 1                          Page   3
+
+              ********************************************************
+              ***  AERMET Data Processing Finished UN-successfully ***
+              ********************************************************
+
+                     EXTRACT AND/OR QA THE METEOROLOGICAL DATA
+
+
+                      **** AERMET MESSAGE SUMMARY TABLE ****
+
+          0- 9   10-19   20-29   30-39   40-49   50-59   60-69   70-89   TOTAL
+       ------------------------------------------------------------------------
+
+  JOB       
+    E      0       0       0       0       0       0       0       0       0
+    W      0       0       0       0       0       0       0       0       0
+    I      0       1       1       0       0       0       0       0       2
+
+  UPPERAIR  
+    E      0       0       0       1       0       0       0       0       1
+    W      0       0       0     119       0       0       0       0     119
+    I      0       0       0       2       0       0       0       0       2
+       ------------------------------------------------------------------------
+           0       1       1     122       0       0       0       0     124
+
+        ****    ERROR MESSAGES    ****
+20230303 UPPERAIR   E33 GETFSL  : UNEXPECTED E-O-F ON FSL SDG # 118
+
+        ****   WARNING MESSAGES   ****
+20230101 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230101 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230102 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230102 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230103 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230103 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230104 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230104 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230105 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230105 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230106 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230106 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230107 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230107 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230108 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230108 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230109 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230109 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230110 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230110 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230111 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230111 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230112 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230112 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230113 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230113 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230114 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230114 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230115 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230115 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230116 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230116 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230117 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230117 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230118 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230118 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230119 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230119 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230120 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230120 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230121 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230121 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230122 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230122 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230123 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230123 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230124 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230124 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230125 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230125 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230126 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230126 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230127 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230127 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230128 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230131 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230131 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230201 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230201 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230202 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230202 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230203 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230203 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230204 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230204 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230205 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230205 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230206 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230206 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230207 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230207 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230208 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230208 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230209 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230209 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230210 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230210 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230211 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230211 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230212 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230212 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230213 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230213 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230214 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230214 UPPERAIR   W36 GETFSL  : SDG SKIPPED: 1st LEVEL NOT TYPE 9, SDG #   84
+20230214 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230215 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230215 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230216 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230216 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230217 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230217 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230218 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230218 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230219 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230219 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230220 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230220 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230221 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230221 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230222 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230222 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230223 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230223 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230224 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230224 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230225 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230225 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230226 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230226 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230227 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230227 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230228 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230228 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230301 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230301 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230302 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230302 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)
+20230303 UPPERAIR   W31 GETFSL  : UAID in file (83899   ) .NE. UAID on LOCATION keyword (   99999)

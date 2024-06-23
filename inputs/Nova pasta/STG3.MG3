@@ -1,0 +1,4 @@
+      30 METPREP    E05 MPPROC  : E-O-F READING MERGE FILE HEADERS
+       1 METPREP    W03 LOCCRD  : LOCATION keyword on METPREP pathway is OBSOLETE unless OSMIX and No UADATA;
+       2 METPREP    W03 LOCCRD  :  The LOCATION used for sunrise in CBL calcs is from ONSITE (if available) or SURFACE station.
+         JOB        I19  SETUP  : "END OF FILE" ON UNIT  5 AFTER RECORD #  53

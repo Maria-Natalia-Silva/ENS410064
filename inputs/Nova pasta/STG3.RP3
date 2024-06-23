@@ -1,0 +1,249 @@
+        AERMET, A Meteorological Processor for the AERMOD Dispersion Model
+                                   Version  21112
+
+                     Data Processed on 22-JUN-2024 at 17:05:40
+
+                                      Stage 3                          Page   1
+
+              ********************************************************
+              ***       AERMET Setup Finished UN-successfully      ***
+              ********************************************************
+
+ 1.  Job File Names
+
+     Listing of Messages: STG3.MG3
+     Summary (this file): STG3.RP3
+
+
+ 2.  Upper Air Data  
+
+      Site ID    Latitude(deg.)   Longitude(deg.)   Time Adjustment
+        99999       27.67S            48.55W               3
+
+     AERMET Has Determined That Processing For This Pathway Includes:
+          NONE, NO DATA TO BE PROCESSED ON THIS PATH 
+
+
+
+ 3.  NWS Surface Data
+
+      Site ID    Latitude(deg.)   Longitude(deg.)   Time Adjustment   Elev. (m)
+        66666        26.3S            48.85W               0             10.0
+
+     AERMET Has Determined That Processing For This Pathway Includes:
+          NONE, NO DATA TO BE PROCESSED ON THIS PATH 
+
+
+
+ 4.  On-site Data    
+
+     AERMET Has Determined That Processing For This Pathway Includes:
+          NONE, NO DATA TO BE PROCESSED ON THIS PATH 
+
+        AERMET, A Meteorological Processor for the AERMOD Dispersion Model
+                                   Version  21112
+
+                     Data Processed on 22-JUN-2024 at 17:05:40
+
+                                      Stage 3                          Page   2
+
+              ********************************************************
+              ***       AERMET Setup Finished UN-successfully      ***
+              ********************************************************
+
+    1.  Input/Output Files
+
+        STG3.RP3                                             OPENED SUCCESSFULLY
+        STG3.MG3                                             OPENED SUCCESSFULLY
+        STG2.MRG                                             OPENED SUCCESSFULLY
+        METEO.SFC                                            OPENED SUCCESSFULLY
+        METEO.PFL                                            OPENED SUCCESSFULLY
+
+    2.  Dispersion Model for which Data Are Processed
+
+          AERMOD
+
+          The Processed Dates Are:    Starting:  1-JAN-2023
+                                        Ending: 31-DEC-2023
+
+    3.  Processing Options
+
+           Process       Scheme         Description
+           -------       ------         -----------
+        WIND DIRECTION   RANDOM      NWS wind directions are RANDOMIZED                          
+        CLOUD COVER      CCVR_Sub    Missing CCVR substitutions ARE included                     
+        TEMPERATURE      TEMP_Sub    Missing TEMP substitutions ARE included                     
+        SBL PROCESSING   UCALST      The default (Holtslag) method is used                       
+        ASOS ADJUSTMENT  ASOS_ADJ    ASOS wind speeds, if present, ARE adjusted for truncation   
+        SDG SELECTION    00Z/12Z     Sounding selection based on 00Z sdg                         
+                                      Selection window:   0     0
+        REFERENCE LEVEL  SUBNWS      NWS WIND & TEMP data ARE SUBSTITUTED for missing ONSITE data
+                                      Anemometer height(m):   14.00
+
+    4.  Locations of Meteorological Data 
+
+         Data           Site     Longitude   Latitude
+        Pathway          ID      (degrees)   (degrees)
+        -------         ----     ---------   ---------
+        UPPERAIR        99999      48.55W      27.67S
+        SURFACE         66666      48.85W       26.3S
+
+    5.  Primary Site Surface Characteristics 
+
+          User Inputs Varied by: Season
+
+                  Wind Sector               Bowen   Roughness
+          Month   Start   End    Albedo     Ratio   Length (m)
+          ----------------------------------------------------
+            1        0.   45.      0.14      0.48     0.9824
+            2        0.   45.      0.14      0.48     0.9824
+            3        0.   45.      0.16      0.90     0.9834
+            4        0.   45.      0.16      0.90     0.9834
+            5        0.   45.      0.16      0.90     0.9834
+            6        0.   45.      0.17      0.96     0.9815
+            7        0.   45.      0.17      0.96     0.9815
+            8        0.   45.      0.17      0.96     0.9815
+            9        0.   45.      0.17      0.96     0.9815
+           10        0.   45.      0.17      0.96     0.9815
+           11        0.   45.      0.17      0.96     0.9815
+           12        0.   45.      0.14      0.48     0.9824
+
+            1       45.   90.      0.14      0.48     0.9648
+            2       45.   90.      0.14      0.48     0.9648
+            3       45.   90.      0.16      0.90     0.9673
+            4       45.   90.      0.16      0.90     0.9673
+            5       45.   90.      0.16      0.90     0.9673
+            6       45.   90.      0.17      0.96     0.9629
+            7       45.   90.      0.17      0.96     0.9629
+            8       45.   90.      0.17      0.96     0.9629
+            9       45.   90.      0.17      0.96     0.9629
+           10       45.   90.      0.17      0.96     0.9629
+           11       45.   90.      0.17      0.96     0.9629
+           12       45.   90.      0.14      0.48     0.9648
+
+            1       90.  135.      0.14      0.48     0.9819
+            2       90.  135.      0.14      0.48     0.9819
+            3       90.  135.      0.16      0.90     0.9829
+            4       90.  135.      0.16      0.90     0.9829
+            5       90.  135.      0.16      0.90     0.9829
+            6       90.  135.      0.17      0.96     0.9810
+            7       90.  135.      0.17      0.96     0.9810
+            8       90.  135.      0.17      0.96     0.9810
+            9       90.  135.      0.17      0.96     0.9810
+           10       90.  135.      0.17      0.96     0.9810
+           11       90.  135.      0.17      0.96     0.9810
+           12       90.  135.      0.14      0.48     0.9819
+
+            1      135.  180.      0.14      0.48     1.0000
+            2      135.  180.      0.14      0.48     1.0000
+            3      135.  180.      0.16      0.90     1.0000
+            4      135.  180.      0.16      0.90     1.0000
+            5      135.  180.      0.16      0.90     1.0000
+            6      135.  180.      0.17      0.96     1.0000
+            7      135.  180.      0.17      0.96     1.0000
+            8      135.  180.      0.17      0.96     1.0000
+            9      135.  180.      0.17      0.96     1.0000
+           10      135.  180.      0.17      0.96     1.0000
+           11      135.  180.      0.17      0.96     1.0000
+           12      135.  180.      0.14      0.48     1.0000
+
+            1      180.  225.      0.14      0.48     1.0000
+            2      180.  225.      0.14      0.48     1.0000
+            3      180.  225.      0.16      0.90     1.0000
+            4      180.  225.      0.16      0.90     1.0000
+            5      180.  225.      0.16      0.90     1.0000
+            6      180.  225.      0.17      0.96     1.0000
+            7      180.  225.      0.17      0.96     1.0000
+            8      180.  225.      0.17      0.96     1.0000
+            9      180.  225.      0.17      0.96     1.0000
+           10      180.  225.      0.17      0.96     1.0000
+           11      180.  225.      0.17      0.96     1.0000
+           12      180.  225.      0.14      0.48     1.0000
+
+            1      225.  270.      0.14      0.48     0.9941
+            2      225.  270.      0.14      0.48     0.9941
+            3      225.  270.      0.16      0.90     0.9944
+            4      225.  270.      0.16      0.90     0.9944
+            5      225.  270.      0.16      0.90     0.9944
+            6      225.  270.      0.17      0.96     0.9939
+            7      225.  270.      0.17      0.96     0.9939
+            8      225.  270.      0.17      0.96     0.9939
+            9      225.  270.      0.17      0.96     0.9939
+           10      225.  270.      0.17      0.96     0.9939
+           11      225.  270.      0.17      0.96     0.9939
+           12      225.  270.      0.14      0.48     0.9941
+
+            1      270.  315.      0.14      0.48     0.9770
+            2      270.  315.      0.14      0.48     0.9770
+            3      270.  315.      0.16      0.90     0.9779
+            4      270.  315.      0.16      0.90     0.9779
+            5      270.  315.      0.16      0.90     0.9779
+            6      270.  315.      0.17      0.96     0.9762
+            7      270.  315.      0.17      0.96     0.9762
+            8      270.  315.      0.17      0.96     0.9762
+            9      270.  315.      0.17      0.96     0.9762
+           10      270.  315.      0.17      0.96     0.9762
+           11      270.  315.      0.17      0.96     0.9762
+           12      270.  315.      0.14      0.48     0.9770
+
+            1      315.  360.      0.14      0.48     1.0000
+            2      315.  360.      0.14      0.48     1.0000
+            3      315.  360.      0.16      0.90     1.0000
+            4      315.  360.      0.16      0.90     1.0000
+            5      315.  360.      0.16      0.90     1.0000
+            6      315.  360.      0.17      0.96     1.0000
+            7      315.  360.      0.17      0.96     1.0000
+            8      315.  360.      0.17      0.96     1.0000
+            9      315.  360.      0.17      0.96     1.0000
+           10      315.  360.      0.17      0.96     1.0000
+           11      315.  360.      0.17      0.96     1.0000
+           12      315.  360.      0.14      0.48     1.0000
+
+    6.  Input File(s) for   AERMOD
+
+          Surface Meteorology:  METEO.SFC
+          Profile Data       :  METEO.PFL
+        AERMET, A Meteorological Processor for the AERMOD Dispersion Model
+                                   Version  21112
+
+                     Data Processed on 22-JUN-2024 at 17:05:40
+
+                                      Stage 3                          Page   3
+
+              ********************************************************
+              ***   Data Processing Not Completed - Setup Errors   ***
+              ********************************************************
+
+               PROCESSING METEOROLOGICAL DATA FOR DISPERSION MODELING
+
+
+                      **** AERMET MESSAGE SUMMARY TABLE ****
+
+          0- 9   10-19   20-29   30-39   40-49   50-59   60-69   70-89   TOTAL
+       ------------------------------------------------------------------------
+
+  JOB       
+    E      0       0       0       0       0       0       0       0       0
+    W      0       0       0       0       0       0       0       0       0
+    I      0       1       0       0       0       0       0       0       1
+
+  METPREP   
+    E      1       0       0       0       0       0       0       0       1
+    W      2       0       0       0       0       0       0       0       2
+    I      0       0       0       0       0       0       0       0       0
+    T      0       0       0       0       0       0       0       0       0
+       ------------------------------------------------------------------------
+           3       1       0       0       0       0       0       0       4
+
+        ****    ERROR MESSAGES    ****
+      30 METPREP    E05 MPPROC  : E-O-F READING MERGE FILE HEADERS
+
+        ****   WARNING MESSAGES   ****
+       1 METPREP    W03 LOCCRD  : LOCATION keyword on METPREP pathway is OBSOLETE unless OSMIX and No UADATA;
+       2 METPREP    W03 LOCCRD  :  The LOCATION used for sunrise in CBL calcs is from ONSITE (if available) or SURFACE station.
+
+
+ The number of CALM winds  encountered is:      0
+ The number of VARIABLE WD encountered is:      0
+ The number of miss CCVR substitutions is:      0
+ The number of miss TEMP substitutions is:      0

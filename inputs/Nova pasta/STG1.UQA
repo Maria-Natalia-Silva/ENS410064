@@ -1,0 +1,8 @@
+*    AERMET Version  21112
+*% UPPERAIR                                                                                                                            
+*     DATA        UPPERAIR.UA FSL                                                                                                      
+*     EXTRACT     STG1.UPEXT                                                                                                           
+*     QAOUT       STG1.UQA                                                                                                             
+*     XDATES      2023/1/1 TO 2023/12/31                                                                                               
+*@    LOCATION    99999 27.67S 48.55W 3                                                                                                
+*     AUDIT     UAPR UAHT UATT UATD UAWD UAWS                                                                                          

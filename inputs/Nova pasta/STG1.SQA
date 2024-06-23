@@ -1,0 +1,8 @@
+*    AERMET Version  21112
+*% SURFACE                                                                                                                             
+*@    DATA        LOCAL.SAM SAMSON                                                                                                     
+*     EXTRACT     STG1.SEXT                                                                                                            
+*     QAOUT       STG1.SQA                                                                                                             
+*     XDATES      2023/1/1 TO 2023/12/31                                                                                               
+*@    LOCATION    66666 26.3S 48.85W 0 10                                                                                              
+*     AUDIT     DPTP  RHUM  HZVS  CLHT  SLVP  RHUM  PRCP  PWTH                                                                         

@@ -1,0 +1,86 @@
+        AERMET, A Meteorological Processor for the AERMOD Dispersion Model
+                                   Version  21112
+
+                     Data Processed on 22-JUN-2024 at 17:05:40
+
+                                      Stage 2                          Page   1
+
+              ********************************************************
+              ***        AERMET Setup Finished Successfully        ***
+              ********************************************************
+
+ 1.  Job File Names
+
+     Listing of Messages: STG2.MG2
+     Summary (this file): STG2.RP2
+
+
+ 2.  Upper Air Data  
+
+      Site ID    Latitude(deg.)   Longitude(deg.)   Time Adjustment
+        99999       27.67S            48.55W               3
+
+     AERMET Has Determined That Processing For This Pathway Includes:
+          MERGE ONLY                                 
+
+          QA Output     -    OPEN: STG1.UQA
+
+
+ 3.  NWS Surface Data
+
+      Site ID    Latitude(deg.)   Longitude(deg.)   Time Adjustment
+        66666        26.3S            48.85W               0
+
+     AERMET Has Determined That Processing For This Pathway Includes:
+          MERGE ONLY                                 
+
+          QA Output     -    OPEN: STG1.SQA
+
+
+ 4.  On-site Data    
+
+     AERMET Has Determined That Processing For This Pathway Includes:
+          NONE, NO DATA TO BE PROCESSED ON THIS PATH 
+
+
+
+ 5.  Merged Data
+          Merge Output  -    OPEN: STG2.MRG
+        AERMET, A Meteorological Processor for the AERMOD Dispersion Model
+                                   Version  21112
+
+                     Data Processed on 22-JUN-2024 at 17:05:40
+
+                                      Stage 2                          Page   2
+
+              ********************************************************
+              ***  AERMET Data Processing Finished UN-successfully ***
+              ********************************************************
+
+
+                      **** AERMET MESSAGE SUMMARY TABLE ****
+
+          0- 9   10-19   20-29   30-39   40-49   50-59   60-69   70-89   TOTAL
+       ------------------------------------------------------------------------
+
+  JOB       
+    E      0       0       0       0       0       0       0       0       0
+    W      0       0       0       0       0       0       0       0       0
+    I      0       1       5       0       0       0       0       0       6
+
+  MERGE     
+    E      0       0       2       0       0       0       1       0       3
+    W      0       0       0       0       0       0       0       0       0
+    I      0       0       0       0       0       0       0       0       0
+       ------------------------------------------------------------------------
+           0       1       7       0       0       0       1       0       9
+
+        ****    ERROR MESSAGES    ****
+         MERGE      E22  MRHDR  : E-O-F READING UPPERAIR   FILE HEADER
+         MERGE      E22  MRHDR  : E-O-F READING SURFACE    FILE HEADER
+         MERGE      E66 MERGE   : ERROR PROCESSING HEADERS, NO MERGE!
+
+        ****   WARNING MESSAGES   ****
+
+               ---  NONE  ---
+
